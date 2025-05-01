@@ -53,3 +53,10 @@ The dataset file used: `E_Commerce.csv`
    ```bash
    git clone https://github.com/your-username/ecommerce-eda.git
    cd ecommerce-eda
+2. Install dependencies (preferably in a virtual environment):
+   ```bash
+   pip install -r requirements.txt
+3. Launch the Jupyter Notebook:
+   ```bash
+   jupyter notebook
+4. Open project.ipynb and run the cells sequentially.

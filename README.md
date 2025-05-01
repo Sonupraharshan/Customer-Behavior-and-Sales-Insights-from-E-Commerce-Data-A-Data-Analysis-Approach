@@ -1,24 +1,55 @@
-# Customer-Behavior-and-Sales-Insights-from-E-Commerce-Data-A-Data-Analysis-Approach
-This project explores an e-commerce dataset to uncover insights into customer behavior, sales trends, and data patterns. Using Python and data visualization libraries, the analysis identifies key metrics, handles data cleaning, and reveals actionable business intelligence through exploratory data analysis (EDA).
+# E-Commerce Logistics and Product Insights: An Exploratory Data Analysis
 
-## Project Overview
+This project presents an exploratory data analysis (EDA) of an e-commerce dataset, aimed at uncovering operational trends related to product characteristics, shipment logistics, and delivery performance. Visualizations and insights are generated using Python and key data analysis libraries.
 
-In the rapidly evolving e-commerce landscape, understanding customer behavior and sales dynamics is crucial for strategic decision-making. This project aims to:
+## 📊 Project Overview
 
-- **Analyze Customer Behavior:** Examine purchasing patterns, frequency, and preferences to identify distinct customer segments.
-- **Uncover Sales Trends:** Investigate sales performance over time to detect seasonal variations and peak sales periods.
-- **Data Cleaning:** Address missing values, duplicates, and inconsistencies to ensure data integrity.
-- **Visualize Data Patterns:** Utilize graphical representations to make complex data more comprehensible and highlight significant findings.
+The dataset contains information about product cost, weight, importance, shipment mode, warehouse location, and whether the order was delivered on time. This project investigates:
 
-## Features
+- Distribution of product weights and costs
+- Influence of shipment mode and product importance
+- Delivery performance trends across warehouses
 
-- **Comprehensive Data Cleaning:** Implement techniques to handle missing data, remove duplicates, and correct inconsistencies.
-- **Exploratory Data Analysis (EDA):** Conduct thorough analyses to understand data distributions, relationships, and anomalies.
-- **Data Visualization:** Create informative charts and graphs to effectively communicate insights.
-- **Actionable Insights:** Derive conclusions that can inform business strategies and decision-making processes.
+## 🛠️ Technologies Used
 
-## Technologies Used
+- **Python**
+- **Jupyter Notebook**
+- **Pandas** – data manipulation
+- **Matplotlib** and **Seaborn** – data visualization
 
-- **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly
-- **Tools:** Jupyter Notebook
+## 📁 Dataset
+
+The dataset file used: `E_Commerce.csv`
+
+**Columns include:**
+- `Cost_of_the_Product`
+- `Weight_in_gms`
+- `Product_importance`
+- `Mode_of_Shipment`
+- `Warehouse_block`
+- `Reached.on.Time_Y.N`
+- and more...
+
+> Note: The column `ID` was dropped during preprocessing as it is not analytically useful.
+
+## 📈 Key Visualizations
+
+- **Weight Distribution**: Understand how product weights are spread.
+- **Product Importance**: Frequency of categories like high, low, and medium.
+- **Cost Analysis**: Product cost distribution and relationships.
+- **Warehouse & Shipment Modes**: Volume comparisons and trends.
+- **Delivery Performance**: On-time delivery statistics.
+
+## 📌 Key Insights
+
+- Certain warehouse blocks consistently handle higher shipment volumes.
+- Products with higher importance tend to be more costly and time-sensitive.
+- Shipment mode has a visible impact on delivery timeliness.
+
+## 🚀 How to Run
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/ecommerce-eda.git
+   cd ecommerce-eda

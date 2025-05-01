@@ -51,8 +51,8 @@ The dataset file used: `E_Commerce.csv`
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-eda.git
-   cd ecommerce-eda
+   git clone https://github.com/Sonupraharshan/Customer-Behavior-and-Sales-Insights-from-E-Commerce-Data-A-Data-Analysis-Approach.git
+   cd Customer-Behavior-and-Sales-Insights-from-E-Commerce-Data-A-Data-Analysis-Approach
 2. Install dependencies (preferably in a virtual environment):
    ```bash
    pip install -r requirements.txt
